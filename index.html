@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Flute fingering</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" href="ie.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<![endif]-->
+	<script type="text/javascript" charset="utf-8" src="./flute.js"></script>
+</head>
+<body>
+<div id="container">
+	<div id="dashboard">
+		<form action="#" id="time-entry" method="POST">
+			<span class="presets">Play Scales: <a href="#" class="fastest">Quickly</a> <a href="#" class="fast">Slowly</a> <a href="#" class="slow">Very Slowly</a>
+			</span> &mdash;or&mdash;
+<span class="entry">Enter the interval time in seconds: <input type="text" name="time" value="" id="input"/> <input type="submit" name="submit" value="GO" class="submit" /></span>
+<p class="feedback">Please enter an integer.</p>
+		</form>
+	</div>
+<div id="hud" style="display:none;"><p><span class="counter" >hi!</span><a href="#">Stop</a><img src="./spinner_green.gif" height="16" width="16"/></p>
+</div>
+	<div id="chart">
+		<img src="_img/L1.png" width="39" height="60" id="L1"/>
+		<img src="_img/L2.png" width="41" height="58" id="L2"/>
+		<img src="_img/L3.png" width="41" height="59" id="L3"/>
+		<img src="_img/L4.png" width="65" height="86" id="L4"/>
+		<img src="_img/R1a.png" width="52" height="62" id="R1a"/>
+		<img src="_img/R1.png" width="41" height="58" id="R1"/>
+		<img src="_img/R2a.png" width="20" height="68" id="R2a"/>
+		<img src="_img/R2.png" width="41" height="58" id="R2"/>
+		<img src="_img/R3a.png" width="19" height="68" id="R3a"/>
+		<img src="_img/R3.png" width="41" height="58" id="R3"/>
+		<img src="_img/R4.png" width="36" height="72" id="R4"/>
+		<img src="_img/R4a.png" width="62" height="81" id="R4a"/>
+		<img src="_img/R4b.png" width="62" height="81" id="R4b"/>
+		<img src="_img/T1.png" width="99" height="43" id="T1"/>
+		<img src="_img/T2.png" width="66" height="28" id="T2"/>
+
+		<div id="note"></div>
+
+		<div id="bars">
+			<img src="./_img/bg_bars.gif" width="200" height="63" id="egbdf" />
+			<div class="bar" id="m1"></div>
+			<div class="bar" id="p1"></div>
+			<div class="bar" id="p2"></div>
+			<div class="bar" id="p3"></div>
+			<div class="bar" id="p4"></div>
+			<div class="bar" id="p5"></div>
+			<div class="bar" id="p6"></div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
